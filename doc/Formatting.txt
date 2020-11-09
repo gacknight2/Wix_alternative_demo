@@ -1,0 +1,28 @@
+When you set two values on a property like margin or padding, the first value affects the element's top and bottom side (make it 0 in this case), and the second value the left and right side (here, auto is a special value that divides the available horizontal space evenly between left and right).
+When 4 values are set the order is top, right, bottom, left.
+
+-=!=- Important -=!=-
+Includes references to the three condensed guides to HTML, CSS, and javascript:
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web
+
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure
+<main> is for content unique to this page. Use <main> only once per page, and put it directly inside <body>. Ideally this shouldn't be nested within other elements.
+<article> encloses a block of related content that makes sense on its own without the rest of the page (e.g., a single blog post).
+<section> is similar to <article>, but it is more for grouping together a single part of the page that constitutes one single piece of functionality (e.g., a mini map, or a set of article headlines and summaries). It's considered best practice to begin each section with a heading; also note that you can break <article>s up into different <section>s, or <section>s up into different <article>s, depending on the context.
+<aside> contains content that is not directly related to the main content but can provide additional information indirectly related to it (glossary entries, author biography, related links, etc.).
+<header> represents a group of introductory content. If it is a child of <body> it defines the global header of a webpage, but if it's a child of an <article> or <section> it defines a specific header for that section (try not to confuse this with titles and headings).
+<nav> contains the main navigation functionality for the page. Secondary links, etc., would not go in the navigation.
+<footer> represents a group of end content for a page.
+
+<br> is a line break
+<hr> is a horizontal rule (usually a line)
+Internal Stylesheets in HTML with <style>
+
+Attribute selectors:	https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
+CSS Functions: https://www.w3schools.com/cssref/css_functions.asp
+Layouts: https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook
+What goes into a URL:	https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL
+
+Current:
+https://developer.mozilla.org/en-US/docs/Learn/CSS
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript
