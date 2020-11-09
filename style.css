@@ -1,0 +1,37 @@
+nav ul li {
+	display : inline-block;
+	background : #0F0;
+	width:27%;
+	margin:0 2%;
+	padding:1em 0;
+}
+
+/* descendent combinator */
+/* ul inside of a nav */
+nav ul {
+	padding-left:0;
+	position:relative;
+	left:25%;
+	width:50%;
+	background-color:#DDD;
+}
+
+/* adjacent sibling combinator */
+/* p following a p */
+p + p {
+	display:inline-block;
+	font-size:160%;
+	font-variant:small-caps;
+	color:#666;
+	font-family:'Segoe Print';
+	transform-origin: left;
+	transform: scaleX(1.5) rotate(4deg);
+}
+
+p {
+	margin:0;
+}
+
+a {
+	text-decoration:none;
+}
